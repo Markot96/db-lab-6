@@ -17,7 +17,7 @@ public class StoryLine {
     @Column(name = "watched_status")
     private Integer watchedStatus;
 
-    @OneToMany(mappedBy = "story_line", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "storyLineUserId", fetch = FetchType.EAGER)
     private Set<Story> story;
 
     public StoryLine(Integer userId, String storyAuthor, Integer watchedStatus) {
