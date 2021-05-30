@@ -1,9 +1,6 @@
 CREATE SCHEMA IF NOT EXISTS `topolevsky`;
 USE `topolevsky`;
 
-CREATE USER 'marko'@'%' IDENTIFIED BY 'password';
-GRANT SELECT ON *.* TO 'marko'@'%';
-
 DROP TABLE IF EXISTS `topolevsky`.`password`;
 DROP TABLE IF EXISTS `topolevsky`.`story`;
 DROP TABLE IF EXISTS `topolevsky`.`story_line`;
