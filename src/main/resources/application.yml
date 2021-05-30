@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/topolevsky?useSSL=false&useUnicode=true&serverTimezone=UTC
-    username: marko
-    password: password
+    username: root
+    password: New_password_1
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     # Show or not log for each sql query
