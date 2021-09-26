@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost/topolevsky?useSSL=false&useUnicode=true&serverTimezone=UTC
+    url: jdbc:mysql://34.66.7.54:3306/topolevsky?useSSL=false&useUnicode=true&serverTimezone=UTC
     username: root
     password: New_password_1
     driver-class-name: com.mysql.jdbc.Driver
